@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_top_shopping_cart" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorLightGray"
+        android:orientation="vertical"
+        android:paddingLeft="6dp"
+        android:paddingTop="6dp"
+        android:paddingRight="6dp">
+
+        <ListView
+            android:id="@+id/shop_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorLightGray"
+            android:scrollbars="none">
+
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/submit_cart"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorSnowWhite"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="总价 ："
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/all_price"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:text="0.0"
+                android:textColor="@color/colorBlack"
+                android:textSize="22sp" />
+
+
+
+            <Button
+                android:id="@+id/shop_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:gravity="center_vertical"
+                android:text="提交订单"
+                android:textColor="@color/colorRed"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/activity_button_shopping_cart" />
+
+</LinearLayout>

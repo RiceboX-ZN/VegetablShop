@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/welcomeLoad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/loadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/loadImageSize"
+            android:layout_height="@dimen/loadImageSize"
+            android:contentDescription="登录封面图片"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_load_vegetable" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全家欢蔬菜商城"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="欢迎登录"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/button2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loadImage" />
+
+    <TextView
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="\@火星电子商务公司支持     版本1.0.0  "
+        android:textColor="@color/colorBlack"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

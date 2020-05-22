@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_top_classification" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="120dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="蔬菜"
+                    android:textColor="@color/colorOrangeRed"
+                    android:textSize="26sp" />
+
+                <LinearLayout
+                    android:id="@+id/item01_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/ic_item01_1"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="新鲜蔬菜"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/item01_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/ic_item01_2"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="进口蔬菜"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/item01_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/ic_item01_3"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="本地蔬菜"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/item01_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/ic_item01_4"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="高级蔬菜"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/item01_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/ic_item01_5"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="海南蔬菜"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="水果"
+                    android:textColor="@color/colorOrangeRed"
+                    android:textSize="26sp" />
+
+                <LinearLayout
+                    android:id="@+id/item02_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/ic_item02_1"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="春季水果"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/item02_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/ic_item02_2"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="夏季水果"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/item02_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/ic_item02_3"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="秋季水果"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/item02_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/ic_item02_4"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="冬季水果"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/item02_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/ic_item02_2"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="反季水果"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/classification_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+
+            </ListView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/activity_button_classification" />
+</LinearLayout>

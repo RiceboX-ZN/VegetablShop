@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="openMainActivityPC">
+
+        <ImageView
+            android:id="@+id/shouye"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="首页"
+            android:src="@mipmap/ic_shouye_flase" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shouye"
+            android:gravity="center"
+            android:text="首页" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="openClassificationPC">
+
+        <ImageView
+            android:id="@+id/fenlei"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="分类"
+            android:src="@mipmap/ic_fenlei_flase" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fenlei"
+            android:gravity="center"
+            android:text="分类" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="openShoppingPC">
+
+        <ImageView
+            android:id="@+id/gouWuChe"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="购物车"
+            android:src="@mipmap/ic_gouwuche_flase" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gouWuChe"
+            android:gravity="center"
+            android:text="购物车" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/geRenZhongXin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="首页"
+            android:src="@mipmap/ic_gerenzhongxin_true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/geRenZhongXin"
+            android:gravity="center"
+            android:text="个人中心" />
+
+    </RelativeLayout>
+</LinearLayout>
